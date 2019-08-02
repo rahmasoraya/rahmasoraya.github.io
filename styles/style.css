@@ -24,7 +24,7 @@ body {
 }
 /*End Debug*/
 
-/*Start Container*/ 
+/*Start Container*/  
 .container {
     margin: 10px auto;
     width: 90%;
@@ -41,6 +41,10 @@ body {
 /*Start Logo*/
 .logo {
     text-align: left;
+}
+
+.logo :hover {
+    background-color: white;
 }
 /*End Logo*/
 
@@ -308,7 +312,8 @@ input[type="submit"],
 }
 
 .menu-sekunder li img {
-    vertical-align: middle;
+    vertical-align: center;
+    text-align: center;
 }
 /*End Menu Sekunder*/
 
@@ -437,7 +442,7 @@ input[type="submit"],
 }
 /*End Wow Factor*/
 
-/*Slider*/
+/*Start Slider*/
 .asal {
     margin: 0;
     padding: 0;
@@ -471,16 +476,15 @@ input[type="submit"],
       left: 0;
     }
   }
-  /*End Slider*/
+/*End Slider*/
 
-  /*Start Produk*/
+ /*Start Produk*/
 .produk img {
     width: 200px;
     height: 200px;
-    border-style: none;
     padding: 10px;
   }
-  /*End Produk*/
+/*End Produk*/
 
 /*Start Box Heading Produk*/
 .box-heading-produk {
@@ -505,3 +509,4 @@ input[type="submit"],
     padding: 10px 20px;
 }
 /*End Box Heading Produk*/
+
